@@ -15,6 +15,7 @@ public class DuelMonstersApplication {
 
 	@GetMapping("/duel")
 	public String duel()  {
+		Integer.MAX_VALUE
 		return "It's time to du du du du du du duel!!!";
 	}
 }
