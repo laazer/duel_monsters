@@ -43,7 +43,7 @@ see and and how those objects can interact with a class.
 
 Think about these like viewer settings on a Facebook posts. 
 
-The basic modifiers are:
+The basic access modifiers are:
 - public: Anything can access this.  
     - This is like when a post is set to *Everyone*. Any object is able to see and interact
     with classes and methods with the `public` access modifier.
@@ -173,6 +173,12 @@ the method contract to return a `long` value but that would also mean changing e
 getter to now account for the new return type or we can update the **method** to convert the `long` `attack` value 
 into an `int`. 
 
+## Links For Further Reading
+- [More on classes, objects, and fields](https://www.javatpoint.com/object-and-class-in-java)
+- [More on access modifiers](https://www.javatpoint.com/access-modifiers)
+- [More on constructors](https://www.javatpoint.com/java-constructor)
+- [More on methods](https://www.javatpoint.com/method-in-java)
+- [More on the `this` key-word](https://www.javatpoint.com/this-keyword)
 
 ## Assignment
 1) Update the MonsterCard class to include the fields:
